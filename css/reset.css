@@ -1,0 +1,145 @@
+body {
+  box-sizing: border-box;
+}
+img {
+  display: block;
+}
+/* Burdan başladın head kısmını eklemedin daha !!!!
+
+header kısmı*/
+
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-part {
+  display: flex;
+}
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+nav {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  margin-right: 76px;
+}
+.nav-list {
+  display: flex;
+  gap: 40px;
+}
+.contacts {
+  padding: 24px 0;
+}
+.adres-list {
+  display: flex;
+  gap: 40px;
+}
+
+/* 1.hero part */
+.hero {
+  padding: 188px 0;
+}
+.hero-baslik {
+  max-width: 496px;
+}
+.button {
+  display: block;
+  margin: 0 auto;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  background-color: #4d5ae5;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/* 2. section our features */
+.our-features {
+  padding: 120px 0;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.ourf-ullist {
+  display: flex;
+  gap: 24px;
+}
+.ourf-list {
+  flex-basis: calc((100% - 3 * 24px) / 4);
+}
+.ourf-baslik {
+  margin-bottom: 8px;
+}
+/*3. section team */
+
+.team {
+  padding: 120px 0;
+}
+.our-team-hiki {
+  margin-bottom: 72px;
+}
+.our-team-list {
+  display: flex;
+  gap: 24px;
+}
+.ekip-uye {
+  flex-basis: calc((100% - 3 * 24px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+.team-isim {
+  padding: 32px 0;
+}
+.ekip-isim {
+  text-align: center;
+  margin-bottom: 8px;
+}
+.unvan {
+  text-align: center;
+}
+/* 4. section our portfplio */
+.our-portfolio {
+  padding: 120px 0;
+}
+.ourp-baslik {
+  margin-bottom: 72px;
+}
+.apps-resim-list {
+  flex-basis: calc((100% - 3 * 24px) / 4);
+}
+
+.apps-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.apps-baslik {
+  margin-bottom: 8px;
+}
+.uygulama-isim {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+.foot-part {
+  padding: 100px 0;
+}
+.logo-footer {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.footer-text {
+  max-width: 164px;
+}
