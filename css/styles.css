@@ -339,6 +339,17 @@ a {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+
+.fourth-section-baslik {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  margin-bottom: 72px;
+}
+
 .ourp-baslik {
   margin-bottom: 72px;
   text-align: center;
